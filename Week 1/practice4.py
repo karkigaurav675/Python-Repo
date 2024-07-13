@@ -1,4 +1,4 @@
-continents = ("Europe", "Africa", "Asia", "Australia", "North America", "South America")
+continents = ("Europe", "Africa", "Asia", "Australia", "Americas")
 
 print("Tuple of continents:")
 print(continents)
