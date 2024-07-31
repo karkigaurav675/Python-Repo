@@ -1,2 +1,2 @@
 # Python-Repo
-Weekly python programs for learning purposes.
+Python programs for learning purposes.
