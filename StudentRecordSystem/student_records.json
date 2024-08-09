@@ -1,30 +1,59 @@
 [
     {
         "id": 1,
-        "Name": "Gaurav",
+        "Name": "abc",
         "Address": "bgr",
-        "Age": 24,
-        "Number": 9090
+        "Age": 22,
+        "Number": 9090,
+        "EducationalQualification": [
+            {
+                "qualificationName": "10th",
+                "passingyear": 2018,
+                "percentage": 80
+            },
+            {
+                "qualificationName": "12th",
+                "passingyear": 2020,
+                "percentage": 90
+            }
+        ]
     },
     {
         "id": 2,
-        "Name": "Vimal",
+        "Name": "DEF",
         "Address": "bgr",
-        "Age": 22,
-        "Number": 8080
+        "Age": 20,
+        "Number": 8080,
+        "EducationalQualification": [
+            {
+                "qualificationName": "10th",
+                "passingyear": 2019,
+                "percentage": 78
+            },
+            {
+                "qualificationName": "12th",
+                "passingyear": 2021,
+                "percentage": 88
+            }
+        ]
     },
     {
         "id": 3,
-        "Name": "Suraj",
-        "Address": "bgr",
-        "Age": 22,
-        "Number": 7070
-    },
-    {
-        "id": 4,
-        "Name": "Rahul",
-        "Address": "bgr",
-        "Age": 23,
-        "Number": 6060
+        "Name": "GHI",
+        "Address": "kl",
+        "Age": 21,
+        "Number": 5050,
+        "EducationalQualification": [
+            {
+                "qualificationName": "10th",
+                "passingyear": 2016,
+                "percentage": 60
+            },
+            {
+                "qualificationName": "12th",
+                "passingyear": 2018,
+                "percentage": 80
+            }
+        ]
     }
 ]
