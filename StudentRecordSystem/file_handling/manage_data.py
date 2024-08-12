@@ -1,5 +1,4 @@
-import os
-import json
+import os, json
 
 path = "C:/Users/asus/Documents/python(for class)/Python-Repo/StudentRecordSystem/student_records.json"
 

@@ -2,56 +2,119 @@
     {
         "id": 1,
         "Name": "abc",
-        "Address": "bgr",
-        "Age": 22,
+        "Address": "kl",
+        "Age": 23,
         "Number": 9090,
         "EducationalQualification": [
             {
                 "qualificationName": "10th",
+                "passingyear": 2014,
+                "percentage": 70
+            },
+            {
+                "qualificationName": "12th",
+                "passingyear": 2016,
+                "percentage": 80
+            },
+            {
+                "qualificationName": "BCA",
+                "passingyear": 2019,
+                "percentage": 76
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "Name": "def",
+        "Address": "kl",
+        "Age": 34,
+        "Number": 8080,
+        "EducationalQualification": [
+            {
+                "qualificationName": "10th",
+                "passingyear": 2016,
+                "percentage": 50
+            },
+            {
+                "qualificationName": "12th",
                 "passingyear": 2018,
                 "percentage": 80
             },
             {
+                "qualificationName": "BBA",
+                "passingyear": 2019,
+                "percentage": 78
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "Name": "ghi",
+        "Address": "kl",
+        "Age": 21,
+        "Number": 7070,
+        "EducationalQualification": [
+            {
+                "qualificationName": "10th",
+                "passingyear": 2016,
+                "percentage": 90
+            },
+            {
                 "qualificationName": "12th",
+                "passingyear": 2017,
+                "percentage": 96
+            },
+            {
+                "qualificationName": "BCA",
                 "passingyear": 2020,
                 "percentage": 90
             }
         ]
     },
     {
-        "id": 2,
-        "Name": "DEF",
+        "id": 4,
+        "Name": "ijk",
         "Address": "bgr",
-        "Age": 20,
-        "Number": 8080,
+        "Age": 34,
+        "Number": 6060,
         "EducationalQualification": [
             {
                 "qualificationName": "10th",
-                "passingyear": 2019,
-                "percentage": 78
+                "passingyear": 2008,
+                "percentage": 79
             },
             {
                 "qualificationName": "12th",
-                "passingyear": 2021,
-                "percentage": 88
+                "passingyear": 2010,
+                "percentage": 80
+            },
+            {
+                "qualificationName": "BBA",
+                "passingyear": 2013,
+                "percentage": 75
             }
         ]
     },
     {
-        "id": 3,
-        "Name": "GHI",
-        "Address": "kl",
-        "Age": 21,
-        "Number": 5050,
+        "id": 5,
+        "Name": "nop",
+        "Address": "bgr",
+        "Age": 24,
+        "Number": 1212,
         "EducationalQualification": [
             {
                 "qualificationName": "10th",
                 "passingyear": 2016,
-                "percentage": 60
+                "percentage": 80
             },
             {
                 "qualificationName": "12th",
                 "passingyear": 2018,
+                "percentage": 85
+            },
+            {
+                "qualificationName": "BBA",
+                "passingyear": 2020,
                 "percentage": 80
             }
         ]

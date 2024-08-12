@@ -1,5 +1,4 @@
-from file_handling.manage_data import load_data
-from file_handling.manage_data import save_data
+from file_handling.manage_data import load_data, save_data
 
 def get_student_data():
     student = {
@@ -8,19 +7,19 @@ def get_student_data():
         "Address": input("Enter student Address: "),
         "Age": int(input("Enter student Age: ")),
         "Number": int(input("Enter student Mobile Number: ")),
-        "EducationalQualification": [
-            {
-                "qualificationName": input("Enter First educational qualification name: "),
-                "passingyear": int(input("Enter year of passing: ")),
-                "percentage": int(input("Enter percentage: "))
-            },
-            {
-                "qualificationName": input("Enter Second educational qualification name: "),
-                "passingyear": int(input("Enter year of passing: ")),
-                "percentage": int(input("Enter percentage: "))
-            }
-        ]
+        "EducationalQualification": []
     }
+    while True:
+        qualification_name = input("Enter educational qualification name (0 to skip): ")
+        if qualification_name == '0':
+            break
+        passing_year = int(input("Enter year of passing: "))
+        percentage = int(input("Enter percentage: "))
+        student["EducationalQualification"].append({
+            "qualificationName": qualification_name,
+            "passingyear": passing_year,
+            "percentage": percentage
+        })  
     return student
 
 def register_student():
